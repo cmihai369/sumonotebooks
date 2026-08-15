@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sumo Notebooks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+fetch("https://ipapi.co/json/")
+.then(response => response.json())
+.then(data => {
+
+    if (data.country_code === "JP" || navigator.language.startsWith("ja")) {
+
+        document.querySelectorAll(".card[data-jp]").forEach(card => {
+            card.href = card.dataset.jp;
+        });
+
+    }
+
+});
+</script>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <img src="images/logo.png" alt="Sumo Notebooks Logo" class="logo">
+    
+    <p class="subtitle">
+      Japanese inspired notebooks for sumo fans worldwide
+    </p>
+  </header>
+
+  <!-- PRODUCTS -->
+  <main class="container">
+
+    <h2>Available Notebooks</h2>
+
+    <div class="grid">
+
+<!-- ABI -->
+<a class="card" href="https://www.amazon.com/dp/B0H663X411" data-jp="https://www.amazon.co.jp/dp/B0H663X411" target="_blank">
+<img src="images/ABI.png" alt="ABI Sumo Notebook">
+<h3>阿炎<br>ABI</h3>
+</a>
+
+<!-- AONISHIKI -->
+<a class="card" href="https://www.amazon.com/dp/B0HCLP6TCG" data-jp="https://www.amazon.co.jp/dp/B0HCLP6TCG" target="_blank">
+<img src="images/AONISHIKI.png" alt="AONISHIKI Sumo Notebook">
+<h3>安青錦<br>AONISHIKI</h3>
+</a>
+
+<!-- ASAHAKURYU -->
+<a class="card" href="https://www.amazon.com/dp/B0GZJXX18R" data-jp="https://www.amazon.co.jp/dp/B0GZJXX18R" target="_blank">
+<img src="images/ASAHAKURYU.png" alt="ASAHAKURYU Sumo Notebook">
+<h3>朝白龍<br>ASAHAKURYU</h3>
+</a>
+
+<!-- ASAKORYU -->
+<a class="card" href="https://www.amazon.com/dp/B0H4Q7TGW4" data-jp="https://www.amazon.co.jp/dp/B0H4Q7TGW4" target="_blank">
+<img src="images/ASAKORYU.png" alt="ASAKORYU Sumo Notebook">
+<h3>朝紅龍<br>ASAKORYU</h3>
+</a>
+
+<!-- ASANOYAMA -->
+<a class="card" href="https://www.amazon.com/dp/B0H4QGR6BC" data-jp="https://www.amazon.co.jp/dp/B0H4QGR6BC" target="_blank">
+<img src="images/ASANOYAMA.png" alt="ASANOYAMA Sumo Notebook">
+<h3>朝乃山<br>ASANOYAMA</h3>
+</a>
+
+<!-- ATAMIFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0HCJKKR26" data-jp="https://www.amazon.co.jp/dp/B0HCJKKR26" target="_blank">
+<img src="images/ATAMIFUJI.png" alt="ATAMIFUJI Sumo Notebook">
+<h3>熱海富士<br>ATAMIFUJI</h3>
+</a>
+
+<!-- CHIYOSHOMA -->
+<a class="card" href="https://www.amazon.com/dp/B0H3VCW8JZ" data-jp="https://www.amazon.co.jp/dp/B0H3VCW8JZ" target="_blank">
+<img src="images/CHIYOSHOMA.png" alt="CHIYOSHOMA Sumo Notebook">
+<h3>千代翔馬<br>CHIYOSHOMA</h3>
+</a>
+
+<!-- CHURANOUMI -->
+<a class="card" href="https://www.amazon.com/dp/B0H6VDVJGC" data-jp="https://www.amazon.co.jp/dp/B0H6VDVJGC" target="_blank">
+<img src="images/CHURANOUMI.png" alt="CHURANOUMI Sumo Notebook">
+<h3>美ノ海<br>CHURANOUMI</h3>
+</a>
+
+<!-- DAIEISHO -->
+<a class="card" href="https://www.amazon.com/dp/B0H65YBFXM" data-jp="https://www.amazon.co.jp/dp/B0H65YBFXM" target="_blank">
+<img src="images/DAIEISHO.png" alt="DAIEISHO Sumo Notebook">
+<h3>大栄翔<br>DAIEISHO</h3>
+</a>
+
+<!-- DAISEIZAN -->
+<a class="card" href="https://www.amazon.com/dp/B0HDJRQWXP" data-jp="https://www.amazon.co.jp/dp/B0HDJRQWXP" target="_blank">
+<img src="images/DAISEIZAN.png" alt="DAISEIZAN Sumo Notebook">
+<h3>大青山<br>DAISEIZAN</h3>
+</a>
+
+<!-- FUJINOKAWA -->
+<a class="card" href="https://www.amazon.com/dp/B0H6VG3BQP" data-jp="https://www.amazon.co.jp/dp/B0H6VG3BQP" target="_blank">
+<img src="images/FUJINOKAWA.png" alt="FUJINOKAWA Sumo Notebook">
+<h3>藤ノ川<br>FUJINOKAWA</h3>
+</a>
+
+<!-- FUJIRYOGA -->
+<a class="card" href="https://www.amazon.com/dp/B0GYSBCSPF" data-jp="https://www.amazon.co.jp/dp/B0GYSBCSPF" target="_blank">
+<img src="images/FUJIRYOGA.png" alt="FUJIRYOGA Sumo Notebook">
+<h3>藤凌駕<br>FUJIRYOGA</h3>
+</a>
+
+<!-- FUJISEIUN -->
+<a class="card" href="https://www.amazon.com/dp/B0H4Q6CCH7" data-jp="https://www.amazon.co.jp/dp/B0H4Q6CCH7" target="_blank">
+<img src="images/FUJISEIUN.png" alt="FUJISEIUN Sumo Notebook">
+<h3>藤青雲<br>FUJISEIUN</h3>
+</a>
+
+<!-- GONOYAMA -->
+<a class="card" href="https://www.amazon.com/dp/B0H4R2XKSC" data-jp="https://www.amazon.co.jp/dp/B0H4R2XKSC" target="_blank">
+<img src="images/GONOYAMA.png" alt="GONOYAMA Sumo Notebook">
+<h3>豪ノ山<br>GONOYAMA</h3>
+</a>
+
+<!-- HAKUNOFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0H58M3BXC" data-jp="https://www.amazon.co.jp/dp/B0H58M3BXC" target="_blank">
+<img src="images/HAKUNOFUJI.png" alt="HAKUNOFUJI Sumo Notebook">
+<h3>伯乃富士<br>HAKUNOFUJI</h3>
+</a>
+
+<!-- HIRADOUMI -->
+<a class="card" href="https://www.amazon.com/dp/B0H6SY3CVH" data-jp="https://www.amazon.co.jp/dp/B0H6SY3CVH" target="_blank">
+<img src="images/HIRADOUMI.png" alt="HIRADOUMI Sumo Notebook">
+<h3>平戸海<br>HIRADOUMI</h3>
+</a>
+
+<!-- HOSHORYU -->
+<a class="card" href="https://www.amazon.com/dp/B0HCLW41J4" data-jp="https://www.amazon.co.jp/dp/B0HCLW41J4" target="_blank">
+<img src="images/HOSHORYU.png" alt="HOSHORYU Sumo Notebook">
+<h3>豊昇龍<br>HOSHORYU</h3>
+</a>
+
+<!-- ICHIYAMAMOTO -->
+<a class="card" href="https://www.amazon.com/dp/B0H58HHJNV" data-jp="https://www.amazon.co.jp/dp/B0H58HHJNV" target="_blank">
+<img src="images/ICHIYAMAMOTO.png" alt="ICHIYAMAMOTO Sumo Notebook">
+<h3>一山本<br>ICHIYAMAMOTO</h3>
+</a>
+
+<!-- KAZUMA -->
+<a class="card" href="https://www.amazon.com/dp/B0HDJLS45F" data-jp="https://www.amazon.co.jp/dp/B0HDJLS45F" target="_blank">
+<img src="images/KAZUMA.png" alt="KAZUMA Sumo Notebook">
+<h3>一意<br>KAZUMA</h3>
+</a>
+
+<!-- KINBOZAN -->
+<a class="card" href="https://www.amazon.com/dp/B0GZJTYKCC" data-jp="https://www.amazon.co.jp/dp/B0GZJTYKCC" target="_blank">
+<img src="images/KINBOZAN.png" alt="KINBOZAN Sumo Notebook">
+<h3>金峰山<br>KINBOZAN</h3>
+</a>
+
+<!-- KIRISHIMA -->
+<a class="card" href="https://www.amazon.com/dp/B0HCJD7C3D" data-jp="https://www.amazon.co.jp/dp/B0HCJD7C3D" target="_blank">
+<img src="images/KIRISHIMA.png" alt="KIRISHIMA Sumo Notebook">
+<h3>霧島<br>KIRISHIMA</h3>
+</a>
+
+<!-- KOTOEIHO -->
+<a class="card" href="https://www.amazon.com/dp/B0GYSBP1V7" data-jp="https://www.amazon.co.jp/dp/B0GYSBP1V7" target="_blank">
+<img src="images/KOTOEIHO.png" alt="KOTOEIHO Sumo Notebook">
+<h3>琴栄峰<br>KOTOEIHO</h3>
+</a>
+
+<!-- KOTOSHOHO -->
+<a class="card" href="https://www.amazon.com/dp/B0H65ZZ11X" data-jp="https://www.amazon.co.jp/dp/B0H65ZZ11X" target="_blank">
+<img src="images/KOTOSHOHO.png" alt="KOTOSHOHO Sumo Notebook">
+<h3>琴勝峰<br>KOTOSHOHO</h3>
+</a>
+
+<!-- KOTOZAKURA -->
+<a class="card" href="https://www.amazon.com/dp/B0HCLS8JHV" data-jp="https://www.amazon.co.jp/dp/B0HCLS8JHV" target="_blank">
+<img src="images/KOTOZAKURA.png" alt="KOTOZAKURA Sumo Notebook">
+<h3>琴櫻<br>KOTOZAKURA</h3>
+</a>
+
+<!-- MIDORIFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0H2W19X5B" data-jp="https://www.amazon.co.jp/dp/B0H2W19X5B" target="_blank">
+<img src="images/MIDORIFUJI.png" alt="MIDORIFUJI Sumo Notebook">
+<h3>翠富士<br>MIDORIFUJI</h3>
+</a>
+
+<!-- MITAKEUMI -->
+<a class="card" href="https://www.amazon.com/dp/B0H2VWL6XV" data-jp="https://www.amazon.co.jp/dp/B0H2VWL6XV" target="_blank">
+<img src="images/MITAKEUMI.png" alt="MITAKEUMI Sumo Notebook">
+<h3>御嶽海<br>MITAKEUMI</h3>
+</a>
+
+<!-- NISHIKIFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0H3ZTGN2J" data-jp="https://www.amazon.co.jp/dp/B0H3ZTGN2J" target="_blank">
+<img src="images/NISHIKIFUJI.png" alt="NISHIKIFUJI Sumo Notebook">
+<h3>錦富士<br>NISHIKIFUJI</h3>
+</a>
+
+<!-- OHO -->
+<a class="card" href="https://www.amazon.com/dp/B0H6SX8FZH" data-jp="https://www.amazon.co.jp/dp/B0H6SX8FZH" target="_blank">
+<img src="images/OHO.png" alt="OHO Sumo Notebook">
+<h3>王鵬<br>OHO</h3>
+</a>
+
+<!-- ONOKATSU -->
+<a class="card" href="https://www.amazon.com/dp/B0H58KZSLR" data-jp="https://www.amazon.co.jp/dp/B0H58KZSLR" target="_blank">
+<img src="images/ONOKATSU.png" alt="ONOKATSU Sumo Notebook">
+<h3>阿武剋<br>ONOKATSU</h3>
+</a>
+
+<!-- ONOSATO -->
+<a class="card" href="https://www.amazon.com/dp/B0HCM2LVLD" data-jp="https://www.amazon.co.jp/dp/B0HCM2LVLD" target="_blank">
+<img src="images/ONOSATO.png" alt="ONOSATO Sumo Notebook">
+<h3>大の里<br>ONOSATO</h3>
+</a>
+
+<!-- OSHOMA -->
+<a class="card" href="https://www.amazon.com/dp/B0H586V35Q" data-jp="https://www.amazon.co.jp/dp/B0H586V35Q" target="_blank">
+<img src="images/OSHOMA.png" alt="OSHOMA Sumo Notebook">
+<h3>歌勝馬<br>OSHOMA</h3>
+</a>
+
+<!-- OSHOUMI -->
+<a class="card" href="https://www.amazon.com/dp/B0H4SX2446" data-jp="https://www.amazon.co.jp/dp/B0H4SX2446" target="_blank">
+<img src="images/OSHOUMI.png" alt="OSHOUMI Sumo Notebook">
+<h3>欧勝海<br>OSHOUMI</h3>
+</a>
+
+<!-- ROGA -->
+<a class="card" href="https://www.amazon.com/dp/B0H4R2WZFD" data-jp="https://www.amazon.co.jp/dp/B0H4R2WZFD" target="_blank">
+<img src="images/ROGA.png" alt="ROGA Sumo Notebook">
+<h3>狼雅<br>ROGA</h3>
+</a>
+
+<!-- RYUDEN -->
+<a class="card" href="https://www.amazon.com/dp/B0H6TC4G4L" data-jp="https://www.amazon.co.jp/dp/B0H6TC4G4L" target="_blank">
+<img src="images/RYUDEN.png" alt="RYUDEN Sumo Notebook">
+<h3>竜電<br>RYUDEN</h3>
+</a>
+
+<!-- SADANOUMI -->
+<a class="card" href="https://www.amazon.com/dp/B0HDJX18PG" data-jp="https://www.amazon.co.jp/dp/B0HDJX18PG" target="_blank">
+<img src="images/SADANOUMI.png" alt="SADANOUMI Sumo Notebook">
+<h3>佐田の海<br>SADANOUMI</h3>
+</a>
+
+<!-- SHISHI -->
+<a class="card" href="https://www.amazon.com/dp/B0H4RRL3FZ" data-jp="https://www.amazon.co.jp/dp/B0H4RRL3FZ" target="_blank">
+<img src="images/SHISHI.png" alt="SHISHI Sumo Notebook">
+<h3>獅司<br>SHISHI</h3>
+</a>
+
+<!-- SHODAI -->
+<a class="card" href="https://www.amazon.com/dp/B0H56YB7KR" data-jp="https://www.amazon.co.jp/dp/B0H56YB7KR" target="_blank">
+<img src="images/SHODAI.png" alt="SHODAI Sumo Notebook">
+<h3>正代<br>SHODAI</h3>
+</a>
+
+<!-- TAKANOSHO -->
+<a class="card" href="https://www.amazon.com/dp/B0H65WFY8X" data-jp="https://www.amazon.co.jp/dp/B0H65WFY8X" target="_blank">
+<img src="images/TAKANOSHO.png" alt="TAKANOSHO Sumo Notebook">
+<h3>隆の勝<br>TAKANOSHO</h3>
+</a>
+
+<!-- TAKAYASU -->
+<a class="card" href="https://www.amazon.com/dp/B0HCJN4RXX" data-jp="https://www.amazon.co.jp/dp/B0HCJN4RXX" target="_blank">
+<img src="images/TAKAYASU.png" alt="TAKAYASU Sumo Notebook">
+<h3>高安<br>TAKAYASU</h3>
+</a>
+
+<!-- TAKERUFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0HDJNR7XF" data-jp="https://www.amazon.co.jp/dp/B0HDJNR7XF" target="_blank">
+<img src="images/TAKERUFUJI.png" alt="TAKERUFUJI Sumo Notebook">
+<h3>尊富士<br>TAKERUFUJI</h3>
+</a>
+
+<!-- TAMAWASHI -->
+<a class="card" href="https://www.amazon.com/dp/B0H56X3L9Z" data-jp="https://www.amazon.co.jp/dp/B0H56X3L9Z" target="_blank">
+<img src="images/TAMAWASHI.png" alt="TAMAWASHI Sumo Notebook">
+<h3>玉鷲<br>TAMAWASHI</h3>
+</a>
+
+<!-- TOBIZARU -->
+<a class="card" href="https://www.amazon.com/dp/B0H4Q44R3V" data-jp="https://www.amazon.co.jp/dp/B0H4Q44R3V" target="_blank">
+<img src="images/TOBIZARU.png" alt="TOBIZARU Sumo Notebook">
+<h3>翔猿<br>TOBIZARU</h3>
+</a>
+
+<!-- TOKIHAYATE -->
+<a class="card" href="https://www.amazon.com/dp/B0H56S925D" data-jp="https://www.amazon.co.jp/dp/B0H56S925D" target="_blank">
+<img src="images/TOKIHAYATE.png" alt="TOKIHAYATE Sumo Notebook">
+<h3>時疾風<br>TOKIHAYATE</h3>
+</a>
+
+<!-- URA -->
+<a class="card" href="https://www.amazon.com/dp/B0H56YCQZQ" data-jp="https://www.amazon.co.jp/dp/B0H56YCQZQ" target="_blank">
+<img src="images/URA.png" alt="URA Sumo Notebook">
+<h3>宇良<br>URA</h3>
+</a>
+
+<!-- WAKAMOTOHARU -->
+<a class="card" href="https://www.amazon.com/dp/B0HCJKY6FT" data-jp="https://www.amazon.co.jp/dp/B0HCJKY6FT" target="_blank">
+<img src="images/WAKAMOTOHARU.png" alt="WAKAMOTOHARU Sumo Notebook">
+<h3>若元春<br>WAKAMOTOHARU</h3>
+</a>
+
+<!-- WAKANOSHO -->
+<a class="card" href="https://www.amazon.com/dp/B0H6T7YCWQ" data-jp="https://www.amazon.co.jp/dp/B0H6T7YCWQ" target="_blank">
+<img src="images/WAKANOSHO.png" alt="WAKANOSHO Sumo Notebook">
+<h3>若ノ勝<br>WAKANOSHO</h3>
+</a>
+
+<!-- WAKATAKAKAGE -->
+<a class="card" href="https://www.amazon.com/dp/B0H6VH6MTJ" data-jp="https://www.amazon.co.jp/dp/B0H6VH6MTJ" target="_blank">
+<img src="images/WAKATAKAKAGE.png" alt="WAKATAKAKAGE Sumo Notebook">
+<h3>若隆景<br>WAKATAKAKAGE</h3>
+</a>
+
+<!-- YOSHINOFUJI -->
+<a class="card" href="https://www.amazon.com/dp/B0H6VG3SG8" data-jp="https://www.amazon.co.jp/dp/B0H6VG3SG8" target="_blank">
+<img src="images/YOSHINOFUJI.png" alt="YOSHINOFUJI Sumo Notebook">
+<h3>義ノ富士<br>YOSHINOFUJI</h3>
+</a>
+
+
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Sumo Notebooks</p>
+  </footer>
+
+</body>
+</html>
